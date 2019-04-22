@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Phc-pp-j2P">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Red-->
+        <scene sceneID="ivw-pc-RXb">
+            <objects>
+                <viewController id="dOa-HD-0xN" customClass="RedViewController" customModule="Raiwborn" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="BuL-PY-jIq">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Me gusta salir a comer con mi familia" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="U7v-bA-SXO">
+                                <rect key="frame" x="67" y="132" width="240" height="63"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="gaq-6L-Xv9"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Red" image="R" selectedImage="R Selected" id="bcM-GG-pNO">
+                        <color key="badgeColor" red="0.75289426810000004" green="0.022416399300000001" blue="0.039337207229999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </tabBarItem>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UAK-Oy-72o" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3476" y="62.518740629685162"/>
+        </scene>
+        <!--Orange-->
+        <scene sceneID="KSz-QS-P6x">
+            <objects>
+                <viewController id="Fbe-rq-ec3" customClass="ViewController" customModule="Raiwborn" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="7ap-vJ-pPc">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Angeles Lopez michael josefh" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="VV2-Dt-yqO">
+                                <rect key="frame" x="67" y="114" width="240" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="UNO  DE MIS HOBBIES ES ESTAR CON MIS AMIGOS" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="uUy-tn-dAw">
+                                <rect key="frame" x="67" y="205" width="240" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.98431378599999997" green="0.37303924560000001" blue="0.025735296309999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="mPC-Vy-L5h"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Orange" image="O" selectedImage="O Selected" id="V2N-J1-vfh">
+                        <color key="badgeColor" red="0.7809605598449707" green="0.39089712500572205" blue="0.077150680124759674" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </tabBarItem>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WY0-Xz-lk6" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-295.19999999999999" y="26.53673163418291"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="xWC-d1-ye2">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="Phc-pp-j2P" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="qPj-Dt-bIi">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="Fbe-rq-ec3" kind="relationship" relationship="viewControllers" id="YYd-kj-Qbh"/>
+                        <segue destination="R68-2X-qK0" kind="relationship" relationship="viewControllers" id="5ex-Lm-DQ3"/>
+                        <segue destination="hmP-zS-ZRT" kind="relationship" relationship="viewControllers" id="Jjf-sm-sG5"/>
+                        <segue destination="PgR-QG-9Je" kind="relationship" relationship="viewControllers" id="JBc-Lf-ipB"/>
+                        <segue destination="dOa-HD-0xN" kind="relationship" relationship="viewControllers" id="yV6-bk-FHK"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sKB-Pw-cDI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="913" y="-1612"/>
+        </scene>
+        <!--Yellow-->
+        <scene sceneID="EWt-Fp-6bf">
+            <objects>
+                <viewController id="R68-2X-qK0" customClass="ViewController" customModule="Raiwborn" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="GS3-sm-AAb">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Me gusta jugar juegos de estrategia en diferentes consolas" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="VKf-bn-fq9">
+                                <rect key="frame" x="67" y="106" width="240" height="72"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.99953407049999998" green="0.98835557699999999" blue="0.47265523669999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="uin-6I-fNx"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Yellow" image="Y" selectedImage="Y Selected" id="qjk-XC-qhP">
+                        <color key="badgeColor" red="0.99953407049999998" green="0.98835557699999999" blue="0.47265523669999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </tabBarItem>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="J5D-6e-LQ5" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="637.60000000000002" y="40.929535232383813"/>
+        </scene>
+        <!--Green-->
+        <scene sceneID="FBx-DM-lyb">
+            <objects>
+                <viewController id="hmP-zS-ZRT" customClass="ViewController" customModule="Raiwborn" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="qWS-T2-nja">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Me agrada hacer ejrcicio" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="wkT-RC-BfC">
+                                <rect key="frame" x="67" y="134" width="240" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.45009386540000001" green="0.98132258650000004" blue="0.4743030667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="vW9-cj-iEG"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Green" image="G" selectedImage="G Selected" id="UEC-Np-hdj">
+                        <color key="badgeColor" name="systemGreenColor" catalog="System" colorSpace="catalog"/>
+                    </tabBarItem>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="If8-ND-3mO" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1608.8" y="40.929535232383813"/>
+        </scene>
+        <!--Blue-->
+        <scene sceneID="aMe-y1-9SL">
+            <objects>
+                <viewController id="PgR-QG-9Je" customClass="ViewController" customModule="Raiwborn" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="dPl-3j-Hrk">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Me gusta esuchar musica y tocar la guitarra" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="cel-8K-N73">
+                                <rect key="frame" x="74" y="117" width="240" height="59"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.016804177310000001" green="0.19835099580000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="VMO-ra-EYI"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Blue" image="B" selectedImage="B Selected" id="OZ4-bY-yoB">
+                        <color key="badgeColor" red="0.016804177310000001" green="0.19835099580000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </tabBarItem>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Tsz-hc-PFs" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2573.5999999999999" y="62.518740629685162"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="B" width="28" height="28"/>
+        <image name="B Selected" width="28" height="28"/>
+        <image name="G" width="28" height="28"/>
+        <image name="G Selected" width="28" height="28"/>
+        <image name="O" width="28" height="28"/>
+        <image name="O Selected" width="28" height="28"/>
+        <image name="R" width="28" height="28"/>
+        <image name="R Selected" width="28" height="28"/>
+        <image name="Y" width="28" height="28"/>
+        <image name="Y Selected" width="28" height="28"/>
+    </resources>
+</document>
