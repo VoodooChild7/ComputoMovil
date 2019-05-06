@@ -11,10 +11,10 @@ import UIKit
 class TableViewController: UITableViewController {
     
     var emojis:[emoji] = [
-        emoji(symbol: "😀",name: "Grinning Face",description: "A typical smiley face.",usage: "happiness"),
-        emoji(symbol: "😕", name: "Confused Face", description: "A confused puzzled face.", usage: "unsure what to think;displeasure"),
-        emoji(symbol: "😍", name: "Heart Eyes", description: "A smiley face with hearts for eyes.", usage: "love of something;attractive"),
-    emoji(symbol: "👮‍♂️", name: "Police Officer", description: "A police officer wearing a blue cap  with a gold badge.", usage: "Person of authority")]
+        emoji(symbol: "🐶",name: "Dog Face",description: "A typical smiley face of a dog.",usage: "dog happiness"),
+        emoji(symbol: "🙉", name: "Suprise Monkey Face", description: "A suprise happiness Monkey face.", usage: "Suprise;Happiness"),
+        emoji(symbol: "🐣", name: "ken", description: "A description of a kitchen.", usage: "Scared;animal"),
+    emoji(symbol: "🐢", name: "Turtle", description: "A animal.", usage: "Person slow,animal")]
 
     override func viewDidLoad() {
         super.viewDidLoad()
